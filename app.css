@@ -7,4 +7,9 @@ h1 {
     height: 300px;
     margin: 0 auto;
     border: 1px solid #000;
+    transition: all 1s;
+}
+
+.box:hover {
+    border-radius: 50%;
 }
