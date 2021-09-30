@@ -57,3 +57,12 @@ div.content-list ul li{
 div.content-list ul li:hover{
     font-weight: bold;
 }
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
