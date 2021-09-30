@@ -13,6 +13,30 @@ header{
     height: 5rem;
 }
 
+input{
+    margin-top: 2rem;
+    padding: 0.30rem;
+    border-radius: 0.25rem;
+    width: 15rem;
+}
+
+input::placeholder{
+    font-weight: bold;
+    font-style: italic;
+}
+
+button{
+    padding: 0.35rem;
+    border-radius: 0.25rem;
+    border: 1px solid black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    color: rgb(119, 119, 119);
+}
+
 main{
     margin: 2rem 2rem;
 }
