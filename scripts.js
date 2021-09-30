@@ -11,6 +11,7 @@ button.addEventListener('click' , () => {
     newLi.textContent = inputContent
 
     document.querySelector('ul').appendChild(newLi)
-    
+
     console.log(inputContent)
+
 })

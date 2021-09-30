@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: monospace;
+    font-size: 17px;
+}
+
 header{
     display: flex;
     justify-content: center;
@@ -42,10 +47,13 @@ main{
 }
 
 div.content-list ul{
-    list-style-type: none;
-    margin-top: 2rem;
+    margin: 2rem 2rem;
 }
 
 div.content-list ul li{
-    padding: 0.25rem;
+    margin: 0.35rem;
+}
+
+div.content-list ul li:hover{
+    font-weight: bold;
 }
